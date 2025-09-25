@@ -8,9 +8,11 @@ Prerequisites
 ## Steps
 1. Create the agent<br/>
     1.1 Choose `create from scratch`<br>
-    1.2 Create a new agent named `student_evaluator_agent` <br>
+    1.2 Create a new agent named as ```<your_name>_student_evaluator_agent```
+    EXAMPLE:  `sirasith_student_evaluator_agent` <br>
     1.3 Set the description to :<br>
     `This agent used when need to evaluate student's score and behavior report aligning with the standard evaluation criteria, the output will be overall analysis with recommended action based from each student's score and behavior report` 
+    Then click **Create**
 ---
 
 2. Add a Tool that Using a New Flow <br>
@@ -22,7 +24,10 @@ Prerequisites
     2.3 Click the flow title (usually `Untitled`) in the top-left to open the flow settings.
     ![Open flow settings](images/image4.png)
 
-    2.4 Change the tool name to `student_evaluation_tool` and set the description to `This tool analyzes student academic performance, behavior, and activity reports against expected criteria, then generates personalized insights and recommendations to improve the student’s profile.`.<br>
+    2.4 Change the tool name to as `<your_name>_student_evaluation_tool`
+    Example: `sirasith_student_evaluation_tool` 
+    and set the description as:
+     `This tool analyzes student academic performance, behavior, and activity reports against expected criteria, then generates personalized insights and recommendations to improve the student’s profile.`.<br>
     2.5 Click Save.
 
     ![Set tool name and description](images/image5.png)
@@ -280,12 +285,14 @@ The output should be as
 
 14 Scroll down to **Beheavior Section** and add this instructions:
 ```
-Whenever the user asks to analyze, review, or get recommendations for a student profile, report, scores, behavior, or activities, use the "Student_evaluation_tool" to process the input. The output must be in Thai and must include the following:
+Whenever the user asks to analyze, review, or get recommendations for a student profile, report, scores, behavior, or activities, 
+use the "<your_name>_student_evaluation_tool" to process the input. The output must be in Thai and must include the following:
 - Recommendations for the student, highlighting the areas of development.
 - Bloom's Taxonomy analysis based on the student's cognitive skills (Application, Analysis, etc.).
 - Erikson’s Psychosocial Stages analysis based on the student's psychosocial development and behaviors.
 - The analysis should highlight the alignment of the student with Bloom's Taxonomy and Erikson’s Stages, with specific recommendations for improvement.
 ```
+- Please make sure to replace <your_name> with your own name. For instance, if your name is sirasith, it would become **sirasith_student_evaluation_tool**."
   ![Behavior Section](images/image49.png)
 ---
 
