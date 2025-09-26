@@ -28,7 +28,7 @@ This guide provides step-by-step instructions to set up your development environ
 
 1.5 Select your preferred verification method (recommend email method). When completed, the user account is created.
 
-## 2. Join IBM watsonx.orhestrate
+## 2. Join IBM Watsonx Orhestrate
 
 ![alt text](images/new_invitation/image4.png)
 
