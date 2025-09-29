@@ -48,10 +48,7 @@ Go to [Watsonx Orchestrate Builder](https://orchestrate.ibm.com)
 
 ## Step 7: Upload OpenAPI Configuration
 
-1. Upload the `class_notes_openapi.json` file from:
-   ```
-   WXO-Saint-Gabriel-workshop/LAB_01_CLASSROOM_BEHAVIOR_MONITORING_AGENT/UI/open_api_tools/
-   ```
+1. Upload the `class_notes_openapi.json` file from email 
 
 ![File Upload Dialog](UI/images/file-upload-dialog.png)
 

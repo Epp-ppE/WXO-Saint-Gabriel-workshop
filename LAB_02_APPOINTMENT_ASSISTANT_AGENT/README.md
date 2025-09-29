@@ -23,15 +23,8 @@
 
 
 ## 3. Add tool
-
-![photo](/LAB_02_APPOINTMENT_ASSISTANT_AGENT/UI/assets/image7.png)
-
-- Go to Github page 
-    - Click "LAB_02_APPOINTMENT_ASSISTANT_AGENT"
-    - Click "UI"
-    - Click "openapi-spec.json"
-    - On the top right click download button.
-
+- Go to Email box 
+    - Download "openapi-spec.json"
 
 ![photo](/LAB_02_APPOINTMENT_ASSISTANT_AGENT/UI/assets/image4.png)
 
